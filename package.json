@@ -1,0 +1,19 @@
+{
+  "name": "webpack-component-packaging",
+  "version": "1.0.0",
+  "description": "大整数加法打包",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "prepublish": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "terser-webpack-plugin": "^5.0.0",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.0.0"
+  }
+}
